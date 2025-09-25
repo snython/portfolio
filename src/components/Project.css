@@ -1,0 +1,144 @@
+/* Projects.css */
+.projects {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: "Arial", sans-serif;
+}
+
+.projects h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 3rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  animation: fadeInDown 1s ease-out;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-item {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  animation: fadeInUp 1s ease-out;
+  animation-fill-mode: both;
+}
+
+.project-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.project-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.project-item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.project-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Placeholder styling for missing images */
+.project-item img[src*="path/to"] {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.project-item img[src*="path/to"]:after {
+  content: "Project Image";
+}
+
+.project-item h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-item p {
+  color: #4a5568;
+  line-height: 1.6;
+  margin: 0 1.5rem 2rem;
+  font-size: 1rem;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .projects {
+    padding: 2rem 1rem;
+  }
+
+  .projects h1 {
+    font-size: 2.5rem;
+  }
+
+  .project-list {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .project-item img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects h1 {
+    font-size: 2rem;
+  }
+
+  .project-item h2 {
+    font-size: 1.3rem;
+  }
+}
