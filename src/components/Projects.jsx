@@ -22,6 +22,9 @@ const Projects = () => {
   ];
 
   return (
+    /* Student's Name: CYRILLE YANNIS SONFACK
+  Student ID: 301514181
+  Date: September 24, 2025 */
     <div className="projects">
       <h1>My Projects</h1>
       <div className="project-list">

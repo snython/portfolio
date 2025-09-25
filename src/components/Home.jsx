@@ -3,6 +3,9 @@ import './Home.css';
 
 const Home = () => {
   return (
+    /* Student's Name: CYRILLE YANNIS SONFACK
+  Student ID: 301514181
+  Date: September 24, 2025 */
     <div className="home">
       <h1>Welcome to My Personal Portfolio</h1>
       <p>

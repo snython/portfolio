@@ -4,6 +4,9 @@ import profileImage from '../assets/logo.svg';
 
 const AboutMe = () => {
   return (
+    /* Student's Name: CYRILLE YANNIS SONFACK
+  Student ID: 301514181
+  Date: September 24, 2025 */
     <div className="about-me-container">
       <div className="about-me">
         <div className="about-header">

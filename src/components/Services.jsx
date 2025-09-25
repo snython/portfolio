@@ -3,6 +3,9 @@ import './Services.css';
 
 const Services = () => {
   return (
+    /* Student's Name: CYRILLE YANNIS SONFACK
+  Student ID: 301514181
+  Date: September 24, 2025 */
     <div className="services-container">
       <div className="services">
         <div className="services-header">

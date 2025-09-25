@@ -11,10 +11,12 @@ import ContactMe from "./components/ContactMe";
 function App() {
   const handleFormSubmit = (formData) => {
     console.log("Form submitted:", formData);
-    // You can use navigate hook inside ContactMe component instead
   };
 
   return (
+    /* Student's Name: CYRILLE YANNIS SONFACK
+  Student ID: 301514181
+  Date: September 24, 2025 */
     <div className="App">
       <Router>
         <Navbar />
