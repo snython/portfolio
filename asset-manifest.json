@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8f5bae38.css",
+    "main.js": "/portfolio/static/js/main.7f193021.js",
+    "static/js/453.438d9e50.chunk.js": "/portfolio/static/js/453.438d9e50.chunk.js",
+    "static/media/pharmacy_system.svg": "/portfolio/static/media/pharmacy_system.363ef552c48e7b03afd33a7d21582721.svg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.65ce0468c8255b9627cb93845bd68795.svg",
+    "index.html": "/portfolio/index.html",
+    "main.8f5bae38.css.map": "/portfolio/static/css/main.8f5bae38.css.map",
+    "main.7f193021.js.map": "/portfolio/static/js/main.7f193021.js.map",
+    "453.438d9e50.chunk.js.map": "/portfolio/static/js/453.438d9e50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f5bae38.css",
+    "static/js/main.7f193021.js"
+  ]
+}

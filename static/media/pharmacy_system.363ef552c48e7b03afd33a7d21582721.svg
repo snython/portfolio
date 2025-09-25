@@ -1,0 +1,106 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pharmacyBgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="computerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d3748;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a5568;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#pharmacyBgGradient)"/>
+  
+  <!-- Computer Monitor -->
+  <rect x="120" y="80" width="160" height="100" rx="8" fill="url(#computerGradient)" stroke="#2d3748" stroke-width="2"/>
+  <rect x="125" y="85" width="150" height="80" rx="4" fill="#f7fafc"/>
+  
+  <!-- Monitor Stand -->
+  <rect x="185" y="180" width="30" height="20" fill="#4a5568"/>
+  <rect x="170" y="200" width="60" height="8" rx="4" fill="#4a5568"/>
+  
+  <!-- System Interface -->
+  <!-- Header Bar -->
+  <rect x="130" y="90" width="140" height="15" fill="#2b6cb8"/>
+  <text x="200" y="100" text-anchor="middle" fill="white" font-size="8" font-weight="bold">PharmaCare System</text>
+  
+  <!-- Navigation Tabs -->
+  <rect x="130" y="105" width="25" height="8" fill="#4299e1"/>
+  <rect x="158" y="105" width="25" height="8" fill="#e2e8f0"/>
+  <rect x="186" y="105" width="25" height="8" fill="#e2e8f0"/>
+  <rect x="214" y="105" width="25" height="8" fill="#e2e8f0"/>
+  
+  <text x="142" y="110" text-anchor="middle" fill="white" font-size="4">Inventory</text>
+  <text x="170" y="110" text-anchor="middle" fill="#4a5568" font-size="4">Patients</text>
+  <text x="198" y="110" text-anchor="middle" fill="#4a5568" font-size="4">Orders</text>
+  <text x="226" y="110" text-anchor="middle" fill="#4a5568" font-size="4">Reports</text>
+  
+  <!-- Data Table -->
+  <rect x="135" y="118" width="130" height="6" fill="#e2e8f0"/>
+  <rect x="135" y="127" width="130" height="4" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="135" y="134" width="130" height="4" fill="#f7fafc" stroke="#e2e8f0"/>
+  <rect x="135" y="141" width="130" height="4" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="135" y="148" width="130" height="4" fill="#f7fafc" stroke="#e2e8f0"/>
+  
+  <!-- Medicine Bottles -->
+  <g transform="translate(50, 120)">
+    <!-- Bottle 1 -->
+    <rect x="0" y="10" width="15" height="25" rx="2" fill="#48bb78" opacity="0.8"/>
+    <rect x="2" y="5" width="11" height="8" rx="1" fill="#ffffff"/>
+    <circle cx="7" cy="9" r="1" fill="#48bb78"/>
+    
+    <!-- Bottle 2 -->
+    <rect x="20" y="8" width="15" height="27" rx="2" fill="#ed8936" opacity="0.8"/>
+    <rect x="22" y="3" width="11" height="8" rx="1" fill="#ffffff"/>
+    <circle cx="27" cy="7" r="1" fill="#ed8936"/>
+    
+    <!-- Bottle 3 -->
+    <rect x="40" y="12" width="15" height="23" rx="2" fill="#4299e1" opacity="0.8"/>
+    <rect x="42" y="7" width="11" height="8" rx="1" fill="#ffffff"/>
+    <circle cx="47" cy="11" r="1" fill="#4299e1"/>
+  </g>
+  
+  <!-- Pills -->
+  <g transform="translate(320, 140)">
+    <ellipse cx="0" cy="0" rx="3" ry="6" fill="#f56565" opacity="0.8"/>
+    <ellipse cx="8" cy="-5" rx="3" ry="6" fill="#48bb78" opacity="0.8"/>
+    <ellipse cx="5" cy="8" rx="3" ry="6" fill="#4299e1" opacity="0.8"/>
+    <circle cx="15" cy="3" r="3" fill="#ed8936" opacity="0.8"/>
+    <circle cx="10" cy="-10" r="3" fill="#9f7aea" opacity="0.8"/>
+  </g>
+  
+  <!-- Medical Cross -->
+  <g transform="translate(30, 40)">
+    <circle cx="15" cy="15" r="15" fill="#48bb78" opacity="0.9"/>
+    <rect x="12" y="8" width="6" height="14" fill="white"/>
+    <rect x="8" y="12" width="14" height="6" fill="white"/>
+  </g>
+  
+  <!-- Prescription Icon -->
+  <g transform="translate(350, 50)">
+    <rect x="0" y="0" width="12" height="16" rx="1" fill="#ffffff" stroke="#4a5568"/>
+    <rect x="2" y="3" width="8" height="1" fill="#4a5568"/>
+    <rect x="2" y="6" width="6" height="1" fill="#4a5568"/>
+    <rect x="2" y="9" width="8" height="1" fill="#4a5568"/>
+    <rect x="2" y="12" width="5" height="1" fill="#4a5568"/>
+  </g>
+  
+  <!-- Warning/Alert Icon -->
+  <g transform="translate(300, 200)">
+    <polygon points="10,5 15,15 5,15" fill="#f56565" opacity="0.8"/>
+    <text x="10" y="13" text-anchor="middle" fill="white" font-size="6" font-weight="bold">!</text>
+  </g>
+  
+  <!-- Database Icon -->
+  <g transform="translate(80, 200)">
+    <ellipse cx="10" cy="5" rx="8" ry="3" fill="#4a5568" opacity="0.8"/>
+    <rect x="2" y="5" width="16" height="8" fill="#4a5568" opacity="0.8"/>
+    <ellipse cx="10" cy="13" rx="8" ry="3" fill="#4a5568" opacity="0.8"/>
+    <ellipse cx="10" cy="8" rx="8" ry="3" fill="#718096" opacity="0.8"/>
+  </g>
+  
+  <!-- System Title -->
+  <text x="200" y="25" text-anchor="middle" fill="#2d3748" font-size="18" font-weight="bold">Pharmacy Management</text>
+</svg>
