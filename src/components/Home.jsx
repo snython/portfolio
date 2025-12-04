@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
       <p>
         My mission is to leverage my skills in programming and design to build applications that enhance user experiences and solve real-world problems.
       </p>
-      <a href="/about" className="btn">Learn More About Me</a>
+      <Link to="/about" className="btn">Learn More About Me</Link>
     </div>
   );
 };
